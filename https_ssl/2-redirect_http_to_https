@@ -47,5 +47,5 @@ frontend clickviral-tech-frontend
 
 backend clickviral-tech-backend
     balance roundrobin
-    server 6268-web-01 34.228.143.1:80 check
-    server 6268-web-02 3.88.41.228:80 check
+    server 6318-web-01 34.228.143.1:80 check
+    server 6318-web-02 3.88.41.228:80 check
