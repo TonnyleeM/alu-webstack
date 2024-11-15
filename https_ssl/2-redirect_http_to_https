@@ -43,7 +43,7 @@ frontend clickviral-tech-frontend
 
     # Set X-Forwarded-Proto header for HTTPS requests
     http-request set-header X-Forwarded-Proto https if { ssl_fc }
-    default_backend clickviral-tech-backend
+    default_backend realtonny-tech-backend
 
 backend clickviral-tech-backend
     balance roundrobin
